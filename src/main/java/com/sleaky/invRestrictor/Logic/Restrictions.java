@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Restrictions {
 
-    public static final int SIZE = 41; // 36 inventory + 4 armor + 1 offhand
+    public static final int SIZE = 41;
 
     private final List<Boolean> restricted;
 
