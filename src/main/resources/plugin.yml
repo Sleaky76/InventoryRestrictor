@@ -1,0 +1,16 @@
+name: InvRestrictor
+version: '1.0.0'
+main: com.sleaky.invRestrictor.InvRestrictor
+api-version: '1.21'
+
+commands:
+  restrict:
+    description: Opens a GUI to manage a player's inventory restrictions.
+    usage: /restrict
+    permission: invrestrictor.restrict
+    permission-message: You do not have permission to use this command.
+
+permissions:
+  invrestrictor.restrict:
+    description: Allows managing other players' inventory restrictions.
+    default: op
