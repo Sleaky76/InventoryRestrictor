@@ -1,8 +1,8 @@
 package com.sleaky.invRestrictor.gui;
 
-import com.sleaky.invRestrictor.Logic.InventoryUtils;
-import com.sleaky.invRestrictor.Logic.PlayerRestrictions;
-import com.sleaky.invRestrictor.Logic.Restrictions;
+import com.sleaky.invRestrictor.utils.InventoryUtils;
+import com.sleaky.invRestrictor.logic.PlayerRestrictions;
+import com.sleaky.invRestrictor.logic.Restrictions;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
